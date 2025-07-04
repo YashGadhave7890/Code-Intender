@@ -40,9 +40,9 @@ A stylish, real-time code formatting tool built using HTML, CSS, and JavaScript 
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
-```bash
-git clone https://github.com/your-username/code-indenter.git
-cd code-indenter
+     ```bash
+          git clone https://github.com/your-username/code-indenter.git
+          cd code-indenter
 
 
 ## 🚀 Getting Started
@@ -54,14 +54,14 @@ cd code-indenter
 
 ## 📂 Project Structure
 
-```bash
-code-indenter/
-│
-├── index.html       # Main HTML page
-├── style.css        # Sky blue glassmorphism + dark mode styles
-├── script.js        # Logic: real-time formatting, clipboard, download
-├── README.md        # Project description
-└── preview.png      # (Optional) Screenshot preview
+         ```bash
+              code-indenter/
+                 │
+                 ├── index.html       # Main HTML page
+                 ├── style.css        # Sky blue glassmorphism + dark mode styles
+                 ├── script.js        # Logic: real-time formatting, clipboard, download
+                 ├── README.md        # Project description
+                 └── preview.png      # (Optional) Screenshot preview
 
 
 ## 🔌 CDN Dependencies
@@ -71,23 +71,20 @@ code-indenter/
 
 ---
 
-## 🎨 Screenshots
-
-| Light Mode | Dark Mode |
-|------------|-----------|
-| ![Light](screens/light.png) | ![Dark](screens/dark.png) |
-
----
 
 ## 💡 Credits
 
 - [Prism.js](https://prismjs.com/)
 
-Designed and developed by **[Your Name]**
+Designed and developed by **YASH GADHAVE**
 
 ---
 
-## 📜 License
 
-This project is licensed under the **MIT License**.
+# 🧠 Code Indenter & Formatter
+
+🌐 **Live Preview**: [Click here to use the tool](https://yashgadhave7890.github.io/Code-Intender)
+
+A stylish, real-time code formatting tool built using HTML, CSS, and JavaScript with Prism.js. Supports multiple programming languages, syntax highlighting, 3D glassmorphism design, light/dark mode toggle, and convenient features like auto language detection, copy to clipboard, and download options.
+
 
