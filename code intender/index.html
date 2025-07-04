@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Code Indenter Pro</title>
+  <link href="style.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <h1>💡 Code Indenter Pro</h1>
+
+    <div class="top-controls">
+      <div class="theme-toggle">
+        <label><input type="checkbox" id="themeToggle" /> Dark Mode</label>
+      </div>
+
+      <div class="lang-select">
+        <label for="langSelect">Language:</label>
+        <select id="langSelect">
+          <option value="auto" selected>Auto Detect</option>
+          <option value="javascript">JavaScript</option>
+          <option value="html">HTML</option>
+          <option value="css">CSS</option>
+          <option value="json">JSON</option>
+          <option value="python">Python</option>
+          <option value="xml">XML</option>
+          <option value="java">Java</option>
+          <option value="c">C</option>
+          <option value="cpp">C++</option>
+          <option value="sql">SQL</option>
+        </select>
+      </div>
+    </div>
+
+    <textarea id="inputCode" placeholder="Paste your code here..."></textarea>
+
+    <div class="button-group">
+      <button id="copyBtn">📋 Copy</button>
+      <button id="downloadBtn">⬇️ Download</button>
+    </div>
+
+    <h2>🔍 Formatted Output</h2>
+    <pre class="output"><code id="outputCode" class="language-javascript"></code></pre>
+  </div>
+
+  <!-- Beautifiers -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.14.9/beautify.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.14.9/beautify-html.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.14.9/beautify-css.min.js"></script>
+
+  <!-- PrismJS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-json.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-java.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-c.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-cpp.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-sql.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-markup.min.js"></script>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
